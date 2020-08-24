@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Cors
 const allowedOrigins = ['http://localhost:3000',
-                      'https://alarid.github.io/WeatherApp/'];
+                      'https://alarid.github.io/'];
 app.use(cors({
   origin: function(origin, callback){
     // allow requests with no origin
